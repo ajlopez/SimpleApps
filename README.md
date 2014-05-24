@@ -1,6 +1,6 @@
 # SimpleApps
 
-SimpleApps define parsers.
+SimpleApps dynamic applications defined in JavaScript
 
 ## Installation
 
