@@ -1,6 +1,6 @@
 # SimpleApps
 
-SimpleApps dynamic applications defined in JavaScript
+SimpleApps dynamic applications defined in JavaScript, to be run using Node.js/Express
 
 ## Installation
 
