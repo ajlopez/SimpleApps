@@ -58,3 +58,15 @@ exports['Get entity by title'] = function (test) {
     
     test.equal(properties[0].getTitle(), 'Name');
 };
+
+exports['Get property by title'] = function (test) {
+    var entity = app.getEntityByTitle('Category');
+    
+    test.ok(entity);
+    test.equal(entity.getTitle(), 'Category');
+    
+    var property = entity.getPropertyByTitle('Name');
+    
+    test.ok(property);    
+    test.equal(property.getTitle(), 'Name');
+};
